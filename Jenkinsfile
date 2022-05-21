@@ -2,6 +2,7 @@ pipeline {
     agent any
     environment {
         //be sure to replace "bhavukm" with your own Docker Hub username
+        // Test
         DOCKER_IMAGE_NAME = "skidfire/train-schedule"
     }
     stages {
